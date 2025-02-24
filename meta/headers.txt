@@ -1,0 +1,15 @@
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en,en-KR;q=0.9,ko-KR;q=0.8,ko;q=0.7,km-KR;q=0.6,km;q=0.5,en-GB;q=0.4,en-US;q=0.3
+Connection: keep-alive
+Content-Length: 441
+Content-Type: application/json;charset=UTF-8
+Cookie: NCPVPCLBTG=92e683b84841f9e922f49f830f2c66ac8c48ceb3f64b1797f3e88b1ccec63dc1; _gid=GA1.3.207467789.1740392211; _ga=GA1.3.1680379963.1740392211; Bigkinds=5C52CE9ABEEADF2ED36A4A6CBB809D9C; _ga_QWY27BS8JM=GS1.1.1740397530.2.1.1740397807.60.0.0
+Host: www.bigkinds.or.kr
+Origin: https://www.bigkinds.or.kr
+Referer: https://www.bigkinds.or.kr/v2/news/index.do
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36
+X-Requested-With: XMLHttpRequest
