@@ -23,6 +23,7 @@ class Engine():
         full_search_path = urljoin(self.base_url, self.search_path)
         headers = self.metadata.get_header_json()
         payload = self.metadata.get_payload()
+        payload["resultNumber"] = str(self.per_page)
 
         for page in range(self.page_range[0], self.page_range[1]+1):
             print(f'\n[+] scraping on page: {page}/{self.page_range[1]}')
@@ -42,7 +43,7 @@ class Engine():
         return articles
     
     def save_format_result_json(self, format_articles, page):
-        # Save found_articles as JSON to a file
+        # Save format_articles as JSON to a file
         save_path=f'./results/format_articles_{page}.json'
         with open(save_path, 'w',encoding='utf-8') as f:
             json.dump(format_articles, f, ensure_ascii=False, indent=4)

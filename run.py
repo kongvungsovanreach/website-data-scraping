@@ -7,7 +7,7 @@ per_page = 50
 search_path = 'api/news/search.do'
 payload_path='./meta/payload.json'
 headers_path='./meta/headers.txt'
-page_range=(1,10)
+page_range=(1,100)
 
 if __name__ == '__main__':
     #engine declaration
