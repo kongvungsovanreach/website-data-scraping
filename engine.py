@@ -43,14 +43,14 @@ class Engine():
         return articles
     
     def save_format_result_json(self, format_articles, page):
-        # Save format_articles as JSON to a file
+        # Save format_articles as JSON
         save_path=f'./results/format_articles_{page}.json'
         with open(save_path, 'w',encoding='utf-8') as f:
             json.dump(format_articles, f, ensure_ascii=False, indent=4)
         print(f'[+] save format result to JSON file: {save_path}')
     
     def save_search_result_json(self, found_articles, page):
-        # Save found_articles as JSON to a file
+        # Save found_articles as JSON
         save_path=f'./raw_results/found_articles_{page}.json'
         with open(save_path, 'w',encoding='utf-8') as f:
             json.dump(found_articles, f, ensure_ascii=False, indent=4)
